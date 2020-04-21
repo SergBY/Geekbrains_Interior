@@ -248,7 +248,7 @@
   letter-spacing: -0.17px;
 }
 
-/*PROMO*/
+/*PROMO*/   /*EXCLUSIVE*/
 
 .promo {
   height: 683px;
@@ -265,7 +265,8 @@
   height: 683px;
 }
 
-.promo-text {
+.promo-text,
+ .exclusive-text{
   padding-left: 50px;
   padding-top: 228px;
   display: flex;
@@ -274,7 +275,8 @@
   width: 633px;
 }
 
-.promo-tag {
+.promo-tag,
+.exclusive-tag {
   color: #1e88e5;
   font-size: 18px;
   font-weight: 700;
@@ -291,7 +293,8 @@
   letter-spacing: -1.25px;
 }
 
-.promo-content {
+.promo-content,
+.exclusive-content {
   color: #6c6c6c;
   font-size: 14px;
   font-weight: 300;
@@ -384,4 +387,46 @@
 
 .hotDeal-pogination {
   padding-top: 225px;
+}
+
+/*EXCLUSIVE*/
+
+.exclusive {
+  height: 810px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  align-content: center;
+}
+
+.exclusive-main {
+  width: 570px;
+  height: 570px;
+  background-image: url(img/exclusive_product/product-1-lg.jpg);
+}
+
+.exclusive-text {
+  margin-left: -20px;
+  margin-top: -43px;
+}
+
+.exclusive-content {
+  width: 332px;
+}
+
+.exclusive-albom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+  width: 570px;
+  height: 570px;
+  overflow: hidden;
+}
+
+.exclusive-image {
+  width: 270px;
+  height: 270px;
 }
