@@ -114,7 +114,7 @@
 }
 
 .pagination {
-  position: absolute;
+  padding-top: 140px;
   width: 1170px;
   bottom: 19px;
   text-align: center;
@@ -340,4 +340,48 @@
 .trending-image {
   height: 370px;
   width: 370px;
+}
+
+/*HOT DEAL*/
+
+.hotDeal {
+  width: 1366px;
+  height: 800px;
+  background-image: url(/img/hot_deals/hot_slider.jpg);
+}
+
+.hotDeal-text {
+  padding-top: 283px;
+}
+
+.hotDeal-tag {
+  color: #e53935;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+}
+
+.hotDeal-name {
+  color: #212121;
+  font-size: 62px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: -2.8px;
+}
+
+.hotDeal-details {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  width: 458px;
+  height: 38px;
+  overflow: hidden;
+  letter-spacing: -0.18px;
+  padding: 15px 0 35px 0;
+}
+
+.hotDeal-pogination {
+  padding-top: 225px;
 }
