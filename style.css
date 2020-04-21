@@ -143,7 +143,9 @@
 /* FEATURED*/
 
 .featured {
-  margin-top: 100px;
+  padding-top: 100px;
+  height: 509px;
+  background-color: #ffffff;
 }
 
 .featured-title {
@@ -244,4 +246,57 @@
   height: 42px;
   overflow: hidden;
   letter-spacing: -0.17px;
+}
+
+.promo {
+  height: 683px;
+  display: flex;
+}
+
+.promo-pict1 {
+  background-image: url(img/promo_product/promo-img1.jpg);
+  height: 683px;
+}
+
+.promo-pict2 {
+  background-image: url(img/promo_product/promo-img.jpg);
+  height: 683px;
+}
+
+.promo-text {
+  padding-left: 50px;
+  padding-top: 228px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 633px;
+}
+
+.promo-tag {
+  color: #1e88e5;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 18px;
+}
+
+.name {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1.25px;
+}
+
+.promo-content {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  width: 374px;
+  height: 36px;
+  overflow: hidden;
+  letter-spacing: -0.15px;
+  margin-bottom: 37px;
 }
