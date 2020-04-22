@@ -248,7 +248,7 @@
   letter-spacing: -0.17px;
 }
 
-/*PROMO*/   /*EXCLUSIVE*/
+/*PROMO*/ /*EXCLUSIVE*/ /*HOT DEAL*/ /*MOBILE*/
 
 .promo {
   height: 683px;
@@ -266,7 +266,7 @@
 }
 
 .promo-text,
- .exclusive-text{
+.exclusive-text {
   padding-left: 50px;
   padding-top: 228px;
   display: flex;
@@ -276,7 +276,8 @@
 }
 
 .promo-tag,
-.exclusive-tag {
+.exclusive-tag,
+.mobile-tag {
   color: #1e88e5;
   font-size: 18px;
   font-weight: 700;
@@ -365,7 +366,8 @@
   letter-spacing: 1.8px;
 }
 
-.hotDeal-name {
+.hotDeal-name,
+.mobile-name {
   color: #212121;
   font-size: 62px;
   font-weight: 100;
@@ -429,4 +431,48 @@
 .exclusive-image {
   width: 270px;
   height: 270px;
+}
+
+/*MOBILE*/
+
+.mobile {
+  width: 1366px;
+  height: 516px;
+  background-image: url(/img/mobile_app/back-img.jpg);
+}
+
+.mobile-text {
+  padding-top: 125px;
+}
+
+.mobile-tag {
+  color: #6c6c6c;
+}
+
+.mobile-name {
+  font-size: 59px;
+  width: 500px;
+  height: 130px;
+  overflow: hidden;
+  line-height: 74px;
+  letter-spacing: -2px;
+}
+
+.mobile-details {
+  color: #6c6c6c;
+font-size: 22px;
+font-weight: 300;
+letter-spacing: -0.35px;
+  width: 415px;
+  height: 21px;
+  overflow: hidden;
+  padding-top: 25px;
+}
+
+.mobile-store {
+  padding-top: 37px;
+}
+
+.mobile-store img {
+  margin-right: 7px;
 }
