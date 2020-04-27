@@ -3,7 +3,9 @@
   padding: 0;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: content-box;
 }
 
@@ -68,6 +70,7 @@
 
 .menu-link:hover {
   color: #212121;
+  text-decoration: none;
 }
 
 .menu-link-active {
@@ -585,7 +588,7 @@
   width: 350px;
   height: 46px;
   position: absolute;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #6c6c6c;
   font-size: 15px;
   font-weight: 300;
@@ -664,6 +667,7 @@
 
 .product_menu-link:hover {
   color: #212121;
+  text-decoration: none;
 }
 
 .product_menu-link-active {
@@ -675,7 +679,7 @@
 
 .product_menu-link-bord {
   border-bottom: 1px solid #212121;
-border-spacing: 10px;
+  border-spacing: 10px;
 }
 
 .product-albom {
@@ -702,9 +706,8 @@ border-spacing: 10px;
   margin-left: 670px;
 }
 
-
 .product-promo {
-margin-top: 140px;
+  margin-top: 140px;
 }
 
 .product-pict1 {
@@ -717,4 +720,160 @@ margin-top: 140px;
   background-image: url(img/promo_product/promo-img.jpg);
   height: 683px;
   width: 683px;
+}
+
+/* ------ DETAILS ------ */
+
+.details-head {
+  height: 119px;
+  background-color: white;
+  position: relative;
+}
+
+.details-menu {
+  display: flex;
+  height: 70px;
+  background-color: #f4f4f4;
+  justify-content: center;
+}
+
+.nav {
+  height: 71px;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 8px 4px;
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+}
+
+.nav-link-active {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212121;
+  letter-spacing: 1.2px;
+}
+
+.nav-link-active:hover {
+  text-decoration: none;
+}
+
+.details-menu .justify-content-center {
+  width: 700px;
+  justify-content: space-evenly !important;
+}
+
+.nav-item a:hover {
+  color: #212121;
+}
+
+/* PRODUCT */
+
+.slider-small-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 230px;
+  justify-items: center;
+  padding: 0px 180px;
+  margin-top: 10px;
+}
+
+.product {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 97px;
+}
+
+.product-about {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 36px;
+}
+
+.product-name {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.product-hot {
+  color: #e53935;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+}
+
+.product-price {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 300;
+  display: flex;
+  align-items: baseline;
+}
+
+.product-price_number {
+  font-size: 72px;
+}
+
+.product-about .button {
+border-radius: 35px;
+background-color: #f44336;
+width: 510px;
+height: 69px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+font-size: 22px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 4.4px;
+margin-top: 8px;
+}
+
+.product-about .button img {
+  padding: 0 10px;
+}
+
+.product-text {
+  width: 499px;
+  height: 244px;
+  overflow: hidden;
+  color: #212121;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: 0.2px;
+margin-top: 50px;
+}
+
+.product-text p {
+  margin-bottom: 0.8rem;
+}
+
+.related {
+  height: 718px;
+  background-color: white;
+}
+
+.related .trending-albom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+  width: 1170px;
+  height: 370px;
+  overflow: hidden;
+  margin-top: 58px;
 }
