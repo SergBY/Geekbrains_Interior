@@ -371,7 +371,7 @@
 .hotDeal {
   width: 1170px;
   height: 800px;
-  background-image: url(/img/hot_deals/hot_slider.jpg);
+  background-image: url(img/hot_deals/hot_slider.jpg);
 }
 
 .hotDeal-text {
@@ -458,7 +458,7 @@
 .mobile {
   width: 1170px;
   height: 516px;
-  background-image: url(/img/mobile_app/back-img.jpg);
+  background-image: url(img/mobile_app/back-img.jpg);
 }
 
 .mobile-text {
@@ -472,7 +472,7 @@
 .mobile-name {
   font-size: 59px;
   width: 500px;
-  height: 130px;
+  height: 133px;
   overflow: hidden;
   line-height: 74px;
   letter-spacing: -2px;
@@ -486,7 +486,7 @@
   width: 415px;
   height: 21px;
   overflow: hidden;
-  padding-top: 25px;
+  padding-top: 22px;
 }
 
 .mobile-store {
@@ -830,7 +830,7 @@
 border-radius: 35px;
 background-color: #f44336;
 width: 510px;
-height: 69px;
+height: 70px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -854,7 +854,7 @@ margin-top: 8px;
 font-size: 16px;
 font-weight: 300;
 letter-spacing: 0.2px;
-margin-top: 50px;
+margin-top: 48px;
 }
 
 .product-text p {
@@ -906,7 +906,7 @@ margin-top: 50px;
 }
 
 .contact-position {
-  padding-bottom: 30px;
+  padding-bottom: 28px;
 }
 
 .contact-name {
@@ -914,7 +914,7 @@ margin-top: 50px;
 font-size: 22px;
 font-weight: 700;
 text-transform: uppercase;
-padding-bottom: 14px;
+padding-bottom: 12px;
 }
 
 .contact-phone,
