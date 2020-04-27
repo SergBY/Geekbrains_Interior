@@ -877,3 +877,64 @@ margin-top: 50px;
   overflow: hidden;
   margin-top: 58px;
 }
+
+
+/* ------ CONTACT ------*/
+
+.contact {
+  height: 563px;
+  background-color: white;
+}
+
+.contact-blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  column-gap: 30px;
+
+}
+
+.contact-block {
+  border: 1px solid black;
+  width: 368px;
+  height: 370px;
+  margin-top: 70px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-position {
+  padding-bottom: 30px;
+}
+
+.contact-name {
+  color: #212121;
+font-size: 22px;
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 14px;
+}
+
+.contact-phone,
+.contact-mail,
+.contact-address {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contact-phone_number,
+.contact-mail_value {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.contact-address_value {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 300;
+}
